@@ -10,6 +10,7 @@ class TPQueue {
         ELEM* follow;
         T infa;
     };
+
  public:
     TPQueue(): top(nullptr), end(nullptr) {}
     ~TPQueue() {
@@ -52,6 +53,7 @@ class TPQueue {
             end = top;
         }
     }
+
  private:
     ELEM* top;
     ELEM* end;
